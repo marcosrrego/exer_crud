@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\marcos.roberto\.yarn\releases\yarn-1.22.0.cjs add express
+
+PATH: 
+  C:\Users\marcos.roberto\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\marcos.roberto\bin;C:\Python39\Scripts;C:\Python39;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\Tools\Binn;C:\Program Files\Microsoft SQL Server\140\DTS\Binn;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\marcos.roberto\AppData\Local\Microsoft\WindowsApps;C:\Users\marcos.roberto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\marcos.roberto\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\marcos.roberto\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\marcos.roberto\Desktop\project_intranet\package.json: Unexpected token e in JSON at position 98
+      at JSON.parse (<anonymous>)
+      at C:\Users\marcos.roberto\.yarn\releases\yarn-1.22.0.cjs:1098:57
+      at Generator.next (<anonymous>)
+      at step (C:\Users\marcos.roberto\.yarn\releases\yarn-1.22.0.cjs:310:30)
+      at C:\Users\marcos.roberto\.yarn\releases\yarn-1.22.0.cjs:321:13
+
+npm manifest: 
+  {
+    "name": "project_intranet",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+  
+  express
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
