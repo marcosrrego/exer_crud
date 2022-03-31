@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-
   "scripts": {
     "dev": "nodemon src/index.js"
   },
-
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "knex": "^1.0.4",
+    "mssql": "^8.0.2",
+    "tedious": "^14.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
